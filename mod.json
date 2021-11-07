@@ -1,0 +1,9 @@
+{
+   "name": "oxypoly",
+   "displayName": "Oxypoly",
+   "author": "Antlrr",
+   "description": "adds Oxypoly",
+   "version": "1.0",
+   "minGameVersion": "130",
+   "hidden": "false",
+}
