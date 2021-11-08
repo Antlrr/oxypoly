@@ -39,12 +39,43 @@ weapons: [
       collidesAir: true
       statusDuration: 240
       hitEffect: hitFlameSmall
-      shootEffect: shootSmallFlame
       ejectEffect: none
       despawnEffect: none
       status: burning
       keepVelocity: false
       hittable: false
+      shootEffect: {
+        type: MultiEffect
+        lifetime: 25
+        effects: [
+          {
+            type: ParticleEffect
+            cone: 12
+            particles: 10
+            interp: pow3Out
+            sizeInterp: pow5In
+            lifetime: 25
+            length: 120
+            colorFrom: 84f491
+            colorTo: 84f491
+            sizeFrom: 4
+            sizeTo: 0
+          }
+          {
+            type: ParticleEffect
+            cone: 8
+            particles: 12
+            interp: pow3Out
+            sizeInterp: pow5In
+            lifetime: 25
+            length: 60
+            colorFrom: 62ae7f
+            colorTo: 62ae7f
+            sizeFrom: 3
+            sizeTo: 0
+          }
+        ]
+      }
     }
   }
 ]
