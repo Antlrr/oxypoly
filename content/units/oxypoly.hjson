@@ -55,7 +55,7 @@ weapons: [
             interp: pow3Out
             sizeInterp: pow5In
             lifetime: 10
-            length: 60
+            length: 30
             colorFrom: 84f491
             colorTo: 84f491
             sizeFrom: 2
@@ -68,7 +68,7 @@ weapons: [
             interp: pow3Out
             sizeInterp: pow5In
             lifetime: 10
-            length: 30
+            length: 15
             colorFrom: 62ae7f
             colorTo: 62ae7f
             sizeFrom: 1
