@@ -11,7 +11,8 @@ lightRadius: 30
 lightColor: ffffff
 rotateShooting: false
 lowAltitude: true
-boostMultiplier: 1
+boostMultiplier: 2
+buildSpeed: 9e999
 weapons: [
    {
    name: plasma-mount-weapon
@@ -34,7 +35,7 @@ weapons: [
       collidesTeam: true
       ammoMultiplier: 3
       hitSize: 7
-      lifetime: 21
+      lifetime: 26
       pierce: true
       collidesAir: true
       statusDuration: 240
