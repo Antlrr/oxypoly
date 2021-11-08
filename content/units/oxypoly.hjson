@@ -34,7 +34,7 @@ weapons: [
       collidesTeam: true
       ammoMultiplier: 3
       hitSize: 7
-      lifetime: 18
+      lifetime: 21
       pierce: true
       collidesAir: true
       statusDuration: 240
