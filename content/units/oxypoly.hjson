@@ -54,11 +54,11 @@ weapons: [
             particles: 10
             interp: pow3Out
             sizeInterp: pow5In
-            lifetime: 25
-            length: 120
+            lifetime: 10
+            length: 60
             colorFrom: 84f491
             colorTo: 84f491
-            sizeFrom: 4
+            sizeFrom: 2
             sizeTo: 0
           }
           {
@@ -67,11 +67,11 @@ weapons: [
             particles: 12
             interp: pow3Out
             sizeInterp: pow5In
-            lifetime: 25
-            length: 60
+            lifetime: 10
+            length: 30
             colorFrom: 62ae7f
             colorTo: 62ae7f
-            sizeFrom: 3
+            sizeFrom: 1
             sizeTo: 0
           }
         ]
